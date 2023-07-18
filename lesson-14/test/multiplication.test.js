@@ -11,7 +11,7 @@ describe('multiply function testing suit', function () {
         expect(result).toBe(50)
     })
 
-    it('should get the number when one negative number is passed', async() => {
+    it('should get the number when one of the numbers is a negative number', async() => {
         
         const result = await calculator.multiply(10, -5)
         expect(result).toBe(-50)
