@@ -1,0 +1,29 @@
+{
+  "name": "lesson-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.6.1",
+    "jest-html-reporters": "^3.1.4",
+    "jest-junit": "^16.0.0"
+  }
+}
