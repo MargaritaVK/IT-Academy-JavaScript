@@ -7,7 +7,7 @@
       "type": "number"
     },
     "title": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "dueDate": {
       "type": "string"

@@ -1,25 +1,25 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Generated schema for Root",
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "number"
-      },
-      "title": {
-        "type": "string"
-      },
-      "dueDate": {
-        "type": "string"
-      },
-      "completed": {
-        "type": "boolean"
-      }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
     },
-    "required": [
-      "id",
-      "title",
-      "dueDate",
-      "completed"
-    ]
-  }
+    "title": {
+      "type": ["string", "null"]
+    },
+    "dueDate": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "dueDate",
+    "completed"
+  ]
+}
