@@ -1,5 +1,4 @@
-let max = 51.20;
-let restValue = max;
+let restValue = 51.20;
 let randomValueCount = 6;
 let numberArray = new Array();
 
