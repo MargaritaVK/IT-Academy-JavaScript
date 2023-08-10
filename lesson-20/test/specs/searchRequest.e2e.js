@@ -9,7 +9,7 @@ describe('Check search request', async () => {
     await mainPage.navigate('https://webdriver.io/');
     await header.clickSearchField();
     await searchWindow.enterSearchInput('WebDriver Options');
-    await searchWindow.getfirstSearchOutput();
+    await searchWindow.getFirstSearchOutput();
     await expect(await searchWindow.firstSearchOutput.getText()).to.equal('WebDriver Options');
   });
 });
