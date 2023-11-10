@@ -1,0 +1,4 @@
+node_modules
+test_report
+generate_html_report.js
+wdio.conf.js
